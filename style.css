@@ -1,0 +1,207 @@
+* 
+{
+    margin:0;
+    padding:0;
+    border: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    outline: none;
+}
+
+html,body
+{
+    height: 100%;
+}
+
+body
+{
+    background-image: linear-gradient(
+        rgb(12, 19, 15) 50%,
+        rgb(42, 46, 44) 100%
+    );
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.copy_pass
+{
+    background-image: linear-gradient
+    (
+        rgb(21, 17, 36) 50%,
+        rgb(26, 20, 36) 100%
+    );
+
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+}
+
+.copy_pass input
+{
+    width: 100%;
+    background-image: linear-gradient(
+        rgb(21, 17, 36) 50%,
+        rgb(26, 20, 36) 100%
+    );
+    padding: 10px;
+    font-size: 24px;
+}
+
+div.type_box
+{
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 30px 0;
+    width: 100%;
+    height: 100%;
+}
+
+.box_wr
+{
+    margin: 10px 0;
+    background-image: linear-gradient(
+        rgb(31, 30, 36) 0%,
+        rgb(31, 31, 61)
+    );
+    padding: 10px;
+    opacity: 0.8;
+}
+
+.type_rang
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.type_rang p
+{
+    margin-bottom: 20px;
+}
+
+.type_rang input[type="range"]
+{
+    appearance: none;
+    display: block;
+    margin: 0 auto;
+    background-image: linear-gradient(
+        rgb(3, 3, 44) 50%,
+        rgb(40, 13, 75) 100%
+    );
+    width: 250px;
+}
+
+.type_rang input[type="range"]::-webkit-slider-thumb
+{
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    margin: 5px 0px;
+    border-radius: 50%;
+    background-color: rgb(51, 57, 65);
+}
+
+form.box_wr
+{
+    border-radius: 5%;
+}
+
+.input_rang
+{
+    display: flex;
+    gap: 10px;
+}
+
+.switch
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.mostrar_senha
+{
+    text-align: center;
+}
+
+.switch .switch-wrapper 
+{
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+    position: relative;
+}
+
+.switch .switch-wrapper .switch-button 
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 40px;
+    background-color: gray;
+    cursor: pointer;
+}
+
+.switch .switch-wrapper input
+{
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.switch .switch-text{
+    padding-right:1rem ;
+}
+
+.switch .switch-wrapper .switch-button::before
+{
+    content: "";
+    width: 26px;
+    height: 26px;
+    position: absolute;
+    left: 4px;
+    bottom: 4px;
+    border-radius: 50%;
+    transition: .4s all ease;
+    background-color: aliceblue;
+}
+
+.sub_button
+{
+    padding: 10px;
+    display: flex;
+    margin: 20px auto;
+    cursor: pointer;
+    text-transform: uppercase;
+    border-radius: 10px;
+    background-color: blueviolet;
+    color: white;
+}
+
+.switch .switch-wrapper input:checked + .switch-button
+{
+    background-color: rgb(8, 161, 110);
+}
+
+.switch .switch-wrapper input:checked + .switch-button::before 
+{
+   transform: translateX(26px); 
+}

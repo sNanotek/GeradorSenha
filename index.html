@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <div class="container">
+
+        <section class="pass_section">
+            <h1 style="text-align: center;">Gerador Senha</h1>
+
+            <div class="copy_pass">
+                <form action="">
+                    <input type="text" class="mostrar_senha" disabled>
+                </form>
+            </div>
+
+            <div class="fields_cl">
+                <form action="" class="box_wr">
+
+                    <div class="type_rang">
+                        <p>Qual tamanho da senha</p>
+                        <div class="input_rang">
+                            <input type="range" name="" id="" min="4" max="12" class="rang_value">
+                            <span class="mostrar_valor"></span>
+                        </div>
+                    </div>
+                                   
+                    <div class="type_box">
+                        <label for="ch" class="switch">
+                            <span class="switch-text">Incluir LetrasMaiúsculas</span>
+                            <div class="switch-wrapper">
+                                <input type="checkbox" id="ch">
+                                <label class="switch-button" for="ch"></label>
+                            </div>
+                        </label>
+                    </div>
+
+                    <div class="type_box">
+                        <label for="chequ" class="switch">
+                            <span class="switch-text">Incluir LetrasMinúsculas</span>
+                            <div class="switch-wrapper">
+                                <input type="checkbox" id="chequ">
+                                <label class="switch-button" for="chequ"></label>
+                            </div>
+                        </label>
+                    </div>
+
+                    <div class="type_box">
+                        <label for="che" class="switch">
+                            <span class="switch-text">Incluir Números</span>
+                            <div class="switch-wrapper">
+                                <input type="checkbox" id="che">
+                                <label class="switch-button" for="che"></label>
+                            </div>
+                        </label>
+                        
+                    </div>
+                    <div class="type_box">
+                        <label for="cheq" class="switch">
+                            <span class="switch-text">Incluir Símbolos</span>
+                            <div class="switch-wrapper">
+                                <input type="checkbox" id="cheq">
+                                <label class="switch-button" for="cheq"></label>
+                            </div>
+                        </label>
+                    </div>
+
+                    <input type="submit" value="Generate" class="sub_button">
+                </form>
+            </div>
+        </section>
+
+    </div>
+
+<script src="script.js"></script>
+</body>
+</html>

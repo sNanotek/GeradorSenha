@@ -20,7 +20,8 @@ Um simples e estiloso gerador de senhas desenvolvido com HTML, CSS e JavaScript,
   - JavaScript (Puro)
 
  📸 Preview
-    ![{FE40EAD8-69B5-48A0-A062-D9F2CE06EF15}](https://github.com/user-attachments/assets/44faeee8-fac9-4b91-88d5-7850a9bbe392)
+ 
+   > -  ![{FE40EAD8-69B5-48A0-A062-D9F2CE06EF15}](https://github.com/user-attachments/assets/44faeee8-fac9-4b91-88d5-7850a9bbe392)
 
 ## 🚀 Como usar
 

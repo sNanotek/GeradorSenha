@@ -16,7 +16,7 @@ html,body
 body
 {
     background-image: linear-gradient(
-        rgb(12, 19, 15) 50%,
+        rgb(30, 3, 53) 50%,
         rgb(42, 46, 44) 100%
     );
     color: white;
@@ -30,6 +30,15 @@ body
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.mostrar_senha{
+    border-radius: 20px;
+    color: yellow;
+}
+
+.rang_value{
+    border-radius: 10px;
 }
 
 .copy_pass
